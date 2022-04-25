@@ -27,7 +27,7 @@ postgresql:
   enabled: false
 
 externalPostgresql:
-  postgresqlHost: "postgresql-external.posthog.svc.cluster.local"
+  postgresqlHost: "postgresql-external.posthog.svc.kube-int.local"
   postgresqlDatabase: kubetest_db
   postgresqlUsername: kubetest_user
   postgresqlPassword: kubetest_password
@@ -38,7 +38,7 @@ postgresql:
   enabled: false
 
 externalPostgresql:
-  postgresqlHost: "postgresql-external.posthog.svc.cluster.local"
+  postgresqlHost: "postgresql-external.posthog.svc.kube-int.local"
   postgresqlDatabase: kubetest_db
   postgresqlUsername: kubetest_user
 
